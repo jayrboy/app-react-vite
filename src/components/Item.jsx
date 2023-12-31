@@ -1,3 +1,5 @@
+import "./Item.css";
+
 export default function Item(props) {
   const { title, description } = props;
 
@@ -10,7 +12,6 @@ export default function Item(props) {
       <div className="content">
         <h4>{description}</h4>
       </div>
-      <hr />
     </section>
   );
 }

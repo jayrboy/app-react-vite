@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="logo" />
-      <h2>React + Vite 2023</h2>
+      <h2>เครื่องมือพัฒนาเว็บปี 2023 (React + Vite)</h2>
       {content.map((data) => {
         return <Item key={data.id} {...data} />;
       })}
